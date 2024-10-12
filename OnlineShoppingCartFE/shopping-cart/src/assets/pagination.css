@@ -1,0 +1,179 @@
+/* header styling */
+h1 {
+    color: green;
+}
+
+/* pagination position styling */
+.pagination_section {
+    position: relative;
+    display: flex;
+}
+
+/* pagination styling */
+.pagination_section a {
+    color: black;
+    padding: 10px 18px;
+    text-decoration: none;
+}
+
+.pagination_section .a-number {
+    color: black;
+    text-decoration: none;
+    margin-top: 11px !important;
+}
+
+/* pagination hover effect on non-active */
+.pagination_section a:hover:not(.active) {
+    background-color: #031F3B;
+    color: white;
+}
+
+
+/* a:nth-child(1) {
+    font-weight: bold;
+}
+
+a:nth-child(7) {
+    font-weight: bold;
+} */
+
+.content {
+    margin: 50px;
+    padding: 15px;
+    width: 700px;
+    height: 200px;
+    border: 2px solid black;
+}
+
+form {
+    max-width: 400px;
+    width: 100%;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+form .form-input {
+    display: flex;
+    align-items: center;
+    height: 36px;
+}
+form .form-input input {
+    flex-grow: 1;
+    padding: 0 16px;
+    height: 100%;
+    border: none;
+    background: var(--grey);
+    border-radius: 36px 0 0 36px;
+    outline: none;
+    width: 100%;
+    color: var(--dark);
+}
+form .form-input button {
+    width: 36px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--blue);
+    color: var(--light);
+    font-size: 18px;
+    border: none;
+    outline: none;
+    border-radius: 0 36px 36px 0;
+    cursor: pointer;
+}
+
+.btn-update,
+.btn-delete,
+.btn-create {
+    border-radius: 20px; /* Để làm cho nút tròn */
+    padding: 10px 20px; /* Kích thước phù hợp */
+    border: none; /* Loại bỏ đường viền */
+    cursor: pointer; /* Thay đổi con trỏ khi di chuột */
+}
+
+.btn-update {
+    background-color: yellow; /* Màu nền màu vàng cho nút update */
+}
+
+.btn-delete {
+    background-color: red; /* Màu nền màu đỏ cho nút delete */
+}
+
+.btn-create {
+    background-color: #3C91E6; /* Màu nền màu đỏ cho nút delete */
+}
+
+.modal {
+    display: block;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+    padding-top: 60px;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 36%;
+}
+
+.modal-content form input,
+.modal-content form select {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+}
+
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+}
+
+form input,
+form select {
+    width: 100%;
+    padding: 8px;
+    /* margin-top: 5px; */
+    box-sizing: border-box;
+}
+
+.save-modal {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.save-modal:hover {
+    background-color: #45a049;
+}
+
+.header-text th {
+    text-align: center !important;
+}

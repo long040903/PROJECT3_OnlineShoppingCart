@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\OnlineShoppingCart",
+    "\\OnlineShoppingCart\\Data",
+    "\\OnlineShoppingCart\\Models",
+    "\\OnlineShoppingCart\\Repository"
+  ],
+  "SelectedNode": "\\OnlineShoppingCart\\Repository\\ProductRepository.cs",
+  "PreviewInSolutionExplorer": false
+}
